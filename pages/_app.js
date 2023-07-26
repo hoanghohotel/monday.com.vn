@@ -1,4 +1,4 @@
-import Preloader from "@/components/elements/Preloader"
+import Preloader from "/components/elements/Preloader"
 import { useEffect, useState } from "react"
 import 'swiper/css'
 import 'swiper/css/navigation'
