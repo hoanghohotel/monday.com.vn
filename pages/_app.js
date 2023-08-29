@@ -1,4 +1,4 @@
-import Preloader from "@/components/elements/Preloader"
+import Preloader from "/components/elements/Preloader"
 import { useEffect, useState } from "react"
 import 'swiper/css'
 import 'swiper/css/navigation'
@@ -13,7 +13,7 @@ import "/public/css/lunar.css"
 // import "/public/css/magnific-popup.css"
 // import "/public/css/owl.carousel.min.css"
 // import "/public/css/owl.theme.default.min.css"
-// import SmoothScroll from "@/components/elements/SmoothScroll"
+// import SmoothScroll from "/components/elements/SmoothScroll"
 import "/public/css/animate.css"
 import "/public/css/pink-theme.css"
 import "/public/css/responsive.css"

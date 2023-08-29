@@ -1,5 +1,5 @@
-import Layout from "@/components/layout/Layout"
-import BrandSlider2 from "@/components/slider/BrandSlider2"
+import Layout from "/components/layout/Layout"
+import BrandSlider2 from "/components/slider/BrandSlider2"
 import Link from "next/link"
 import { useState } from "react"
 export default function Home() {
