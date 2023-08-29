@@ -1,7 +1,7 @@
-import CounterUp from "/components/elements/CounterUp"
-import VideoPopup from "/components/elements/VidepPopup"
-import Layout from "/components/layout/Layout"
-import BrandSlider2 from "/components/slider/BrandSlider2"
+import CounterUp from "@/components/elements/CounterUp"
+import VideoPopup from "@/components/elements/VidepPopup"
+import Layout from "@/components/layout/Layout"
+import BrandSlider2 from "@/components/slider/BrandSlider2"
 import Link from "next/link"
 export default function Home() {
 

@@ -1,6 +1,6 @@
 import Link from "next/link"
-import MobileMenu from "../MobileMenu"
 import Menu from "../Menu"
+import MobileMenu from "../MobileMenu"
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu, headerCls }) {
     return (
         <>
@@ -26,8 +26,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, header
                                 <Link href="#hero-1" className="logo-white"><img src="/images/logo-white.png" alt="logo" /></Link>
                             </div>
                             {/* MAIN MENU */}
-                            <nav className="wsmenu clearfix">
-                            {isMobileMenu ? <MobileMenu /> : <Menu />}
+                            <nav className="wsmenu clearfix" style={{ height: `${isMobileMenu ? "100vh" : ""}` }}>
+                                {isMobileMenu ? <MobileMenu /> : <Menu />}
                             </nav> {/* END MAIN MENU */}
                         </div>
                     </div> {/* END NAVIGATION MENU */}
